@@ -48,18 +48,19 @@
       <div class="projects">
         <div class="card">
           <h3>公众号</h3>
+          <a href="https://mp.weixin.qq.com/s/havu_WZ8Miv27NmwWuRsOw">公众号文章</a>
           <p>《壹米说电脑》文章发布、评论系统。</p>
-          <a href="#">查看项目</a>
+          <a href="https://pan.baidu.com/s/1FJqcKXlQCuj7dG8W-JBoEw?pwd=mnfm">软件分享网盘</a>
         </div>
         <div class="card">
           <h3>今日头条号</h3>
           <p>《壹米说电脑》专注视频分享</p>
-          <a href="#">查看项目</a>
+          <a href="https://www.toutiao.com/c/user/token/CiY2okskGxc5LRCDJurNElVq1xbLGHqrALOMXpLOuTi4ZFbsQypUsRpJCjwAAAAAAAAAAAAAT75xIoY3J2MTQsA6HBKEnfJt_mqlcdwiyy84yLAmrfQeG6g2RT7O6lnr1RBb-kFD4A4Q55-CDhjDxYPqBCIBA7s1xuY=/?source=mine_profile">查看项目</a>
         </div>
         <div class="card">
           <h3>个人电脑维修服务</h3>
           <p>提供线上、线下电脑维修服务</p>
-          <a href="#">查看项目</a>
+          <a href="#小程序://壹米说电脑/6HyKKbOgTC8qKLu">查看项目</a>
         </div>
       </div>
     </div>
@@ -67,10 +68,7 @@
     <div class="section">
       <h2>联系方式</h2>
       <p>Email：78298779@qq.com</p>
-      <p>GitHub：https://leihongyue11-hash.github.io/yimidiannao11/</p>
-      <p>头条号：壹米说电脑</p>
-    </div>
-
+      <p>GitHub：https://leihongyue11-hash.github.io/yimishuodiannao1/</p>
   </div>
 
   <div class="footer">© 壹米说电脑</div>
