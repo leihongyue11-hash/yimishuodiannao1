@@ -1,31 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>壹米说电脑的网页</title>
-    <style>
-        body {
-            font-family: Arial;
-            background: #f5f5f5;
-            text-align: center;
-            padding-top: 100px;
-        }
-        .box {
-            background: white;
-            width: 400px;
-            margin: auto;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>壹米说电脑</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #0d6efd; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { margin-top: 10px; font-size: 18px; }
+    .container { width: 90%; max-width: 1000px; margin: 30px auto; }
+    .section { background: #fff; border-radius: 12px; padding: 25px; margin-bottom: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .section h2 { margin-top: 0; border-left: 5px solid #0d6efd; padding-left: 10px; }
+    .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #fff; border-radius: 10px; padding: 20px; border: 1px solid #e0e0e0; transition: 0.2s; }
+    .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.1); transform: translateY(-3px); }
+    .footer { text-align: center; padding: 20px; background: #ddd; margin-top: 40px; }
+    a { color: #0d6efd; text-decoration: none; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>壹米说电脑</h1>
+    <p>专注电脑硬件软件｜热爱技术分享</p>
+  </header>
+  <div class="container">
 
-<div class="box">
-    <h1>你好，壹米说电脑的网页上线啦！</h1>
-    <p>这是我正在学习制作的第一个网页。</p>
-</div>
+    <div class="section">
+      <h2>个人简介</h2>
+      <p>热爱电脑知识分享，从事电脑维修行业数十年，一个很老的电脑小白</p>
+    </div>
 
+    <div class="section">
+      <h2>技能特长</h2>
+      <div class="skills">
+        <div class="card">电脑维修</div>
+        <div class="card">软软分享</div>
+        <div class="card">硬件评测维修</div>
+        <div class="card">编写自动化脚本</div>
+        <div class="card">维修故事案例分享</div>
+        <div class="card">电脑系统重装</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>精选项目</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>公众号</h3>
+          <p>《壹米说电脑》文章发布、评论系统。</p>
+          <a href="#">查看项目</a>
+        </div>
+        <div class="card">
+          <h3>今日头条号</h3>
+          <p>《壹米说电脑》专注视频分享</p>
+          <a href="#">查看项目</a>
+        </div>
+        <div class="card">
+          <h3>个人电脑维修服务</h3>
+          <p>提供线上、线下电脑维修服务</p>
+          <a href="#">查看项目</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>联系方式</h2>
+      <p>Email：78298779@qq.com</p>
+      <p>GitHub：https://leihongyue11-hash.github.io/yimishuodiannao1/</p>
+      <p>头条号：https://www.toutiao.com/c/user/token/CibBJk2kj9fRH95PvddyTepBLaebtF2lMxlzKUmNoEUJWz8xsNQkARpJCjwAAAAAAAAAAAAAT75xIoY3J2MTQsA6HBKEnfJt_mqlcdwiyy84yLAmrfQeG6g2RT7O6lnr1RBb-kFD4A4QuqCCDhjDxYPqBCIBA-IR0iU=/?source=mine_profile&log_from=a78621e7881748_1763823845984</p>
+    </div>
+
+  </div>
+
+  <div class="footer">© 壹米说电脑</div>
 </body>
 </html>
